@@ -34,8 +34,8 @@ body {
 
 .list .item {
     transition: .2s;
-    filter: brightness(0.5);
-    filter: blur(30%);
+    filter: brightness(0.85);
+    filter: blur(15%);
 }
 
 .list .item:hover {
