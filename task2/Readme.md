@@ -101,9 +101,9 @@ Add styles for the product container:
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0;
+    bottom: 2;
     z-index: 2;
-    width: 500px;
+    width: 100px;
     transition: 0.7s;
 }
 ```
@@ -135,8 +135,8 @@ Add the base styles for the soda can elements:
     background-size: auto 100%;
     width: 280px;
     aspect-ratio: 2 / 4.08;
-    background-blend-mode: multiply;
-    transition: 0.8s;
+    background-blend-mode: overlay; /**/
+    transition: 0.9s;
     mask-image: url(soda.png);
     mask-size: auto 100%;
 }
